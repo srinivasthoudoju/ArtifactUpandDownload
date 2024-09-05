@@ -9,7 +9,7 @@ jobs:
    - name: Perform the addition
      shell: bash
      run: |
-      expr 3 +7 > math-homework.txt
+      expr 3 + 7 > math-homework.txt
 
    - name: upload math result for job@1
      uses: actions/upload-artifact@v3
