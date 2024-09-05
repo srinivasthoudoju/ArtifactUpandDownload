@@ -31,6 +31,6 @@ jobs:
     - name: Print the result
       shell: bash
       run: |
-       value = 'cat math-homework.txt'
+       value=cat math-homework.txt'
        echo the result is $value
    
